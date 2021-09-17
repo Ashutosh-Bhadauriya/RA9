@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  background: #c2c0fc;
+}
+
+button {
+  cursor: pointer;
+  background: #2300a1;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 10px;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.book-names {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #5541c7;
+  width: 80%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
